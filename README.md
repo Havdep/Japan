@@ -7,7 +7,7 @@ deactivate -->
 ## 🖼️ Demo Screenshots
 
 ### 📥 Upload and Process PDF
-![Upload PDF](C:\Users\ASUS\OneDrive\Desktop\Japan\Week1\Streamlit\Screenshots\Untitled-2.jpg)
+![Upload PDF](Screenshots/Untitled.jpg)
 
 ### 💬 AI Response
 ![GPT Result](Week1\Streamlit\Screenshots\Untitled-3.jpg)
