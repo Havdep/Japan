@@ -10,7 +10,9 @@ deactivate -->
 ![Upload PDF](https://github.com/Havdep/Japan/blob/main/Week1/Streamlit/Screenshots/Untitled.jpg?raw=true)
 
 ### 💬 AI Response
-![GPT Result](Week1\Streamlit\Screenshots\Untitled-3.jpg)
+![GPT Result]([Week1\Streamlit\Screenshots\Untitled-3.jpg](https://github.com/Havdep/Japan/blob/main/Week1/Streamlit/Screenshots/Untitled-2.jpg?raw=true))
+![GPT Result](https://github.com/Havdep/Japan/blob/main/Week1/Streamlit/Screenshots/Untitled-3.jpg?raw=true)
+
 
 
 # Resume Translator AI
