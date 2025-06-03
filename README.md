@@ -7,7 +7,7 @@ deactivate -->
 ## 🖼️ Demo Screenshots
 
 ### 📥 Upload and Process PDF
-![Upload PDF]([Screenshots/Untitled.jpg](https://github.com/Havdep/Japan/blob/main/Week1/Streamlit/Screenshots/Untitled.jpg))
+![Upload PDF](https://github.com/Havdep/Japan/blob/main/Week1/Streamlit/Screenshots/Untitled.jpg?raw=true)
 
 ### 💬 AI Response
 ![GPT Result](Week1\Streamlit\Screenshots\Untitled-3.jpg)
