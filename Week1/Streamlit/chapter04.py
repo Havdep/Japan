@@ -27,7 +27,7 @@ if file:
 
                 if text:
                     lines = text.strip().split()
-                    first_four_lines = lines[:17]
+                    first_four_lines = lines[:4]
                     result = "\n".join(first_four_lines)
                     st.write(result)
                     response = client.chat.completions.create(
