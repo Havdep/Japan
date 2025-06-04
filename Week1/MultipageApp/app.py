@@ -22,7 +22,7 @@ pg = st.navigation(
 )
 
 st.logo(
-    "https://github.com/Havdep/Japan/blob/main/Week1/MultipageApp/assets/images.png?raw=true",
+    "https://github.com/Havdep/Japan/blob/main/Week1/MultipageApp/assets/image.png?raw=true",
     size="large",
 )
 st.sidebar.text("Made with Love")
