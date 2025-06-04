@@ -1,5 +1,6 @@
 <!-- Activate streamlit virtual environment
 .venv\Scripts\Activate.ps1
+ .\venv-2\Scripts\activate
 
 python -m streamlit run main.py
 
