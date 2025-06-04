@@ -21,7 +21,10 @@ pg = st.navigation(
     {"Info": [about_page], "Projects": [projtect_1_page, projtect_2_page]}
 )
 
-# st.logo("assets/images.png", size="medium")
+st.logo(
+    "https://github.com/Havdep/Japan/blob/main/Week1/MultipageApp/assets/images.png?raw=true",
+    size="large",
+)
 st.sidebar.text("Made with Love")
 
 pg.run()

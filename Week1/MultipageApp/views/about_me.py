@@ -1,3 +1,4 @@
+from numpy import size
 import streamlit as st
 from forms.contact_forms import contact_form
 
@@ -11,8 +12,13 @@ st.title("私について")
 
 col1, col2 = st.columns(2, gap="medium", vertical_alignment="center")
 
+
 with col1:
-    st.image("./assets/WIN_20210515_23_58_42_Pro.jpg", width=300)
+    st.image(
+        "https://github.com/Havdep/Japan/blob/main/Week1/MultipageApp/assets/WIN_20210515_23_58_42_Pro.jpg?raw=true",
+        width=300,
+    )
+
 
 with col2:
     st.title("Nipun KUMAR")
