@@ -7,6 +7,8 @@ from dotenv import load_dotenv  # for accessing API key
 load_dotenv()
 client = OpenAI()
 
+PABBLY_WEBHOOK_URL = st.secrets["PABBLY_WEBHOOK_URL"]
+
 
 def contact_form():
     with st.form("Contact Form"):
@@ -68,8 +70,7 @@ def contact_form():
                 }
                 if response_1:
                     response_2 = requests.post(
-                        "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZiMDYzNDA0MzU1MjZkNTUzNDUxMzAi_pc",
-                        json=webhook_data,
+                        PABBLY_WEBHOOK_URL, json=webhook_data, timeout=10
                     )
                 else:
                     st.error("Failed to get response from AI. Try again")
